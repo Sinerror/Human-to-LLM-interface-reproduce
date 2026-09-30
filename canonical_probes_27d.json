@@ -1,0 +1,275 @@
+{
+  "admiration": {
+    "pos": [
+      "admiration",
+      "gratitude",
+      "affection",
+      "self-worth",
+      "triumph"
+    ]
+  },
+  "adoration": {
+    "pos": [
+      "adoration",
+      "worship",
+      "ravishment",
+      "exultant"
+    ]
+    
+  },
+  "aesthetic_appreciation": {
+    "pos": [
+      "appreciation",
+      "enthrallment",
+      "liking",
+      "regard"
+    ] 
+  },
+  "amusement": {
+    "pos": [
+      "amusement",
+      "fun",
+      "playfulness",
+      "ebullient",
+      "thrill"
+    ] 
+  },
+  "anger": {
+    "pos": [
+      "self-anger",
+      "anger",
+      "outrage",
+      "infuriation",
+      "enragement",
+      "resentment",
+      "fury",
+      "indignation",
+      "irate",
+      "wrath"
+    ] 
+  },
+  "anxiety": {
+    "pos": [
+      "anxiety",
+      "anxious",
+      "angst",
+      "agitation",
+      "worry",
+      "trepidation",
+      "nervous",
+      "apprehension",
+      "unease"
+    ] 
+  },
+  "awe": {
+    "pos": [
+      "awe",
+      "amazement",
+      "ecstatic",
+      "elation",
+      "exultation"
+    ] 
+  },
+  "awkwardness": {
+    "pos": [
+      "shyness",
+      "solicitude",
+      "embarrassment",
+      "abashment",
+      "sheepishness",
+      "mortification",
+      "chagrined"
+    ] 
+  },
+  "boredom": {
+    "pos": [
+      "boredom",
+      "bored",
+      "ennui",
+      "aloofness",
+      "discontentment",
+      "apathy"
+    ] 
+  },
+  "calmness": {
+    "pos": [
+      "calm",
+      "calmness",
+      "relaxation",
+      "peace",
+      "tranquility"
+    ] 
+  },
+  "confusion": {
+    "pos": [
+      "confusion",
+      "ambivalence",
+      "fussiness",
+      "disconsolateness",
+      "suspense",
+      "hesitance",
+      "anticipation"
+    ] 
+  },
+  "craving": {
+    "pos": [
+      "craving",
+      "appetite",
+      "yearning",
+      "wish",
+      "desire",
+      "longing",
+      "hankering",
+      "pining"
+    ] 
+  },
+  "disgust": {
+    "pos": [
+      "disgust",
+      "detestation",
+      "self-disgust",
+      "abhorrence",
+      "loathing",
+      "disapproval",
+      "disdainful"
+    ] 
+  },
+  "empathetic_pain": {
+    "pos": [
+      "compassion",
+      "empathy",
+      "emotive",
+      "commiseration",
+      "sorrow",
+      "tenderness"
+    ] 
+  },
+  "entrancement": {
+    "pos": [
+      "entrancement",
+      "wonder",
+      "acceptance",
+      "demonstrative"
+    ] 
+  },
+  "excitement": {
+    "pos": [
+      "excitement",
+      "excited",
+      "exhilaration",
+      "exuberance"
+    ] 
+  },
+  "fear": {
+    "pos": [
+      "fearfulness",
+      "scare",
+      "fear",
+      "afraid",
+      "affright",
+      "aghast",
+      "fright"
+    ] 
+  },
+  "horror": {
+    "pos": [
+      "horror",
+      "creeps",
+      "eerie",
+      "terror",
+      "alarming",
+      "frisson",
+      "dread",
+      "horrid"
+    ] 
+  },
+  "interest": {
+    "pos": [
+      "interest",
+      "curiosity",
+      "eager",
+      "fascination",
+      "enthusiasm"
+    ] 
+  },
+  "joy": {
+    "pos": [
+      "joyful",
+      "joy",
+      "high-spirited",
+      "gleeful",
+      "delight"
+    ] 
+  },
+  "nostalgia": {
+    "pos": [
+      "nostalgia",
+      "nostalgic",
+      "regret",
+      "melancholy"
+    ] 
+  },
+  "relief": {
+    "pos": [
+      "relief",
+      "consolation",
+      "ease",
+      "mercy",
+      "solace",
+      "confidence"
+    ] 
+  },
+  "romance": {
+    "pos": [
+      "love",
+      "affectionate",
+      "infatuation",
+      "friskiness",
+      "passion",
+      "fervency",
+      "intimacy",
+      "amorousness"
+    ] 
+  },
+  "sadness": {
+    "pos": [
+      "sad",
+      "sadness",
+      "doleful",
+      "depressed",
+      "mournfulness",
+      "dejectedness",
+      "unhappiness"
+    ] 
+  },
+  "satisfaction": {
+    "pos": [
+      "satisfaction",
+      "self-satisfaction",
+      "complacence",
+      "contentment",
+      "fulfillment",
+      "pleasure"
+    ] 
+  },
+  "sexual_desire": {
+    "pos": [
+      "horny",
+      "carnality",
+      "attraction",
+      "lecherousness",
+      "aroused",
+      "lust",
+      "sex"
+    ] 
+  },
+  "surprise": {
+    "pos": [
+      "surprise",
+      "astonishment",
+      "disappointed",
+      "dismay",
+      "panic"
+    ] 
+  }
+}
