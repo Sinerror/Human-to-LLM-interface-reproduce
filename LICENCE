@@ -1,0 +1,86 @@
+MIT License
+
+Copyright (c) 2026 Vlad V. Kosenkov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+
+DATA
+
+All data files in this repository and in its companion Hugging Face dataset —
+the lexicon and corpus, prompts, held-out prompts, labels, word lists,
+pre-registered predictions, extracted vectors, generations, coherence ladders and
+atlases — are released under Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/,
+subject to the model notices below.
+
+Why share-alike rather than CC BY. Sense glosses in the corpus derive in part
+from Wiktionary, whose text is dual-licensed CC BY-SA 4.0 and GFDL; share-alike
+requires material containing it to carry the same or a compatible licence. The
+glosses are not confined to one file: every sense key has the form word::gloss,
+so they appear in the labels, the predictions and the key list of every vector
+file. Licensing all data CC BY-SA 4.0 is the simplest way to comply everywhere.
+
+Attribution. Wiktionary content: https://www.wiktionary.org/ and its
+contributors, used under CC BY-SA 4.0.
+
+WordNet. Other glosses derive from Princeton WordNet 3.0, whose licence is
+permissive and compatible with CC BY-SA, and requires this notice:
+
+  WordNet Release 3.0 Copyright 2006 by Princeton University. All rights
+  reserved. THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON
+  UNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.
+
+LLM-assisted corpus. The LLM-judge filtering, the natural sentences and the
+held-out prompts were produced with Devstral-Small-2-24B-Instruct-2512, run
+locally; see that model's licence. The corpus cannot be regenerated exactly and
+is released as fixed files, together with the prompts used to build it.
+
+--------------------------------------------------------------------------
+
+MODEL-DERIVED DATA
+
+Model weights are not redistributed; models are referenced by Hugging Face
+identifier. Three kinds of released file are nevertheless derived from the
+models: extracted activation vectors, generated text, and atlases (which hold
+int8 projections of each model's unembedding matrix). Each model's own licence
+may apply to the files derived from it. As stated on the model cards at the time
+of writing:
+
+  google/gemma-3-1b-it, google/gemma-3-1b-pt,
+  unsloth/gemma-2-9b-bnb-4bit            Gemma Terms of Use
+  meta-llama/Meta-Llama-3-8B             Meta Llama 3 Community License.
+                                         Built with Meta Llama 3.
+  Qwen/Qwen2.5-1.5B                      Apache License 2.0
+  mistralai/Mistral-7B-v0.3              Apache License 2.0
+  EleutherAI/pythia-6.9b                 Apache License 2.0
+  state-spaces/mamba-2.8b-hf             Apache License 2.0
+  microsoft/phi-2                        MIT License
+
+Users of the derived files are responsible for complying with the relevant
+model licence; this notice is informational and not legal advice.
+
+Generated text. Generations are model output produced under activation
+steering, included so the analysis can be reproduced. Some are degenerate, and
+some are emotionally charged by construction. They are research artifacts, not
+endorsed content.
+
+The NRC VAD Lexicon is not redistributed and no comparison against it is
+included.
