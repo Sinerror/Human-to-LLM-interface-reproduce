@@ -1,0 +1,6 @@
+    {"anger":   {"pos": ["anger","rage","fury","wrath","outrage","resentment","indignation","irate"]},
+    "disgust": {"pos": ["disgust","loathing","abhorrence","detestation","revulsion","disdainful"]},
+    "fear":    {"pos": ["fear","terror","dread","fright","panic","horror","afraid","scare"]},
+    "joy":     {"pos": ["joy","delight","happiness","elation","ecstasy","jubilation","glee"]},
+    "sadness": {"pos": ["sadness","sorrow","grief","melancholy","unhappiness","mournfulness","dejectedness"]},
+    "surprise":{"pos": ["surprise","astonishment","amazement","startle","dismay","aghast"]}}

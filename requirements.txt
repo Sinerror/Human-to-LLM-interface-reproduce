@@ -1,0 +1,11 @@
+# Tested on Python 3.14 with CUDA 13.2. The full chain: extraction, coherence
+# edge, generation, analysis, atlas, figures.
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+sentence-transformers==6.1.0
+torch==2.14.0            # tested build: 2.14.0+cu132; install the CUDA build for your driver
+transformers==5.17.0
+accelerate==1.15.0       # loads models straight to the GPU (device_map)
+bitsandbytes==0.50.2     # only for the 4-bit gemma-2-9b
+matplotlib==3.11.2       # figures
