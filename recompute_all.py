@@ -24,7 +24,7 @@ WHAT YOU GET IN --out
   numbers beside what the paper currently prints, and provenance.json with the
   sha256 of every input, script and output.
 """
-import argparse, shutil, hashlib, json, os, subprocess, sys, time
+import argparse, glob, shutil, hashlib, json, os, subprocess, sys, time
 
 for _s in (sys.stdout, sys.stderr):
     try:
@@ -386,7 +386,9 @@ def main():
 
     if a.from_work:
         pkg = os.path.join(W, "verify_package")
-        atlas = os.path.join(W, "google_gemma-3-1b-it", "atlas_google_gemma-3-1b-it.json")
+        # any atlas_*.json in the primary model's folder (the dataset ships atlas_g31bit.json)
+        cand = sorted(glob.glob(os.path.join(W, "google_gemma-3-1b-it", "atlas_*.json")))
+        atlas = cand[0] if cand else ""
         step("verify package (all models)", [py, S("package_verify.py"),
              "--work", W, "--models", *slugs, "--labels", PRIMARY["labels"],
              "--probes", PRIMARY["probes"], "--predictions", a.predictions or "predictions.csv",
